@@ -311,6 +311,7 @@ h6 {
   font-family: "Gilroy", sans-serif;
 }
 .zalog .content .items-container {
+  position: inherit;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -511,6 +512,7 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 .conditions .content .items-container {
+  position: inherit;
   display: flex;
   flex-direction: column;
   gap: 30px;

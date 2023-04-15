@@ -317,6 +317,7 @@ body {
       font-family: "Gilroy", sans-serif;
     }
     .items-container {
+      position: inherit;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -527,6 +528,7 @@ body {
       }
     }
     .items-container {
+      position: inherit;
       display: flex;
       flex-direction: column;
       gap: 30px;

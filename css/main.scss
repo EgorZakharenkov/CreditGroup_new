@@ -2114,63 +2114,130 @@ color: #2A2E33
 
 
 
-.items-container {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  bottom: -34%;
-  left: 15%;
-  ul {
+.section_1{
+  .items-container {
+    position: absolute;
     display: flex;
-    gap: 10px;
-    li {
+    width: 100%;
+    justify-content: center;
+    bottom: -34%;
+    left: 15%;
+    ul {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
       gap: 10px;
-      background: rgba(255, 255, 255, 0.8);
-      backdrop-filter: blur(10px);
-      border-radius: 30px;
-      h5 {
-        font-family: "Raleway", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 100%;
-        text-align: center;
-        color: #2a2e33;
-      }
-      p {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 28px;
-        background: linear-gradient(
-                        100.92deg,
-                        #a259ff 13.57%,
-                        #ff6250 97.65%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        span {
-          font-size: 46px;
-          line-height: 46px;
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        h5 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          text-align: center;
+          color: #2a2e33;
+        }
+        p {
+          font-family: "Gilroy", sans-serif;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 28px;
+          background: linear-gradient(
+                          100.92deg,
+                          #a259ff 13.57%,
+                          #ff6250 97.65%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          span {
+            font-size: 46px;
+            line-height: 46px;
+          }
         }
       }
     }
   }
-}
-.right-container{
-  position: relative;
-  .items-container{
-    position: absolute;
-    bottom: 10%;
-    left: 0;
+  .right-container{
+    position: relative;
+    .items-container{
+      position: absolute;
+      bottom: 16%;
+      left: 0;
 
+    }
   }
+}
+.main-section{
+  .items-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    bottom: -34%;
+    left: 15%;
+    ul {
+      display: flex;
+      gap: 10px;
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        h5 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          text-align: center;
+          color: #2a2e33;
+        }
+        p {
+          font-family: "Gilroy", sans-serif;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 28px;
+          background: linear-gradient(
+                          100.92deg,
+                          #a259ff 13.57%,
+                          #ff6250 97.65%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          span {
+            font-size: 46px;
+            line-height: 46px;
+          }
+        }
+      }
+    }
+  }
+  .right-container{
+    position: relative;
+    .items-container{
+      position: absolute;
+      bottom: 16%;
+      left: 0;
+
+    }
+  }
+}
+.items_left{
+  left: -20px;
 }
