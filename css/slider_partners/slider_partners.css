@@ -1,5 +1,5 @@
 .slider_adaptiv_partners{
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 40px;
 }
 
@@ -120,6 +120,7 @@
 }
 .slide img{
     opacity: 0.3;
+    width: auto;
 }
 .slider_adaptiv_partners .slide img{
 

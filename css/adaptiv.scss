@@ -141,6 +141,32 @@
 
 
 @media screen and (max-width: 850px) {
+  .right-container{
+    img{
+      width: 300px;
+
+    }
+    .items-container {
+      ul {
+        gap: 5px;
+        li {
+          padding: 10px;
+          border-radius: 18.1957px;
+          gap: 5px;
+          h5 {
+            font-size: 12px;
+            line-height: 100%;
+          }
+          p {
+            font-size: 17px;
+            line-height: 17px;
+            span {
+              font-size: 24px;
+              line-height: 24px;
+            }
+          }
+        }
+  }}}
   .sub_title {
     font-size: 24px;
     max-width: 300px;
@@ -978,27 +1004,19 @@
     }
 
   }
-  .table{
-    .sub_title_2{
-      font-size: 20px;
-    }
-    .block{
-      .items{
-        .item_top{
-          width: 148px;
-          justify-content: center;
-          span{
-            margin: 0;
-            font-size: 20px;
-          }
-        }
-        .item{
-          width: 148px;
-        }
+  table {
+    tr {
+      th {
+        font-size: 14px;
+        line-height: 150%;
+        padding: 14px 28px;
+      }
+      td {
+        font-size: 14px;
+        line-height: 150%;
       }
     }
-  }
-  .list{
+  }  .list{
     .block{
       .block_item{
         padding: 30px 20px;

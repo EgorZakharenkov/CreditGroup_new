@@ -8,7 +8,7 @@ $(document).ready(function(){
     dots: false,
     pauseOnHover: false,
     responsive: [{
-      breakpoint: 1920,
+      breakpoint: 2000,
       settings: {
         slidesToShow: 4
       }
@@ -20,9 +20,9 @@ $(document).ready(function(){
         }
       },
       {
-      breakpoint: 700,
+      breakpoint: 850,
       settings: {
-        slidesToShow: 2
+        slidesToShow: 1
       }
     }]
   });
