@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="font/stylesheet.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/menu_mobile/menu.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
     <link rel="stylesheet" href="css/adaptiv.css" />
 
     <title>Title</title>
@@ -131,13 +133,13 @@
             <div class="wrapper">
               <div class="dropdown">
                 <div class="wrapp_item">
-                  <div onclick="Dropdown()" class="item dropbtn">
+                  <div onmouseover="Dropdown()" class="item dropbtn">
                     Кредиты под залог недвижимости
                   </div>
                   <img src="img/chevron-down.svg" alt="" />
                 </div>
                 <a href="#" class="item dropbtn"></a>
-                <div id="myDropdown" class="dropdown-content drop">
+                <div onmouseleave="DropLeave()"  id="myDropdown" class="dropdown-content drop">
                   <a href="" class="item">Кредиты под залог автомобиля</a>
                   <a href="" class="item">Рефинансирование</a>
                   <a href="" class="item"

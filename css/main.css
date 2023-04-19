@@ -1990,6 +1990,62 @@ datalist {
   left: 0;
 }
 
+.section_2 .items-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  bottom: -34%;
+  left: 15%;
+}
+.section_2 .items-container ul {
+  display: flex;
+  gap: 10px;
+}
+.section_2 .items-container ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+}
+.section_2 .items-container ul li h5 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #2a2e33;
+}
+.section_2 .items-container ul li p {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  background: linear-gradient(100.92deg, #a259ff 13.57%, #ff6250 97.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section_2 .items-container ul li p span {
+  font-size: 46px;
+  line-height: 46px;
+}
+.section_2 .right-container {
+  position: relative;
+}
+.section_2 .right-container .items-container {
+  position: absolute;
+  bottom: 16%;
+  left: 0;
+}
+
 .main-section .items-container {
   position: absolute;
   display: flex;
