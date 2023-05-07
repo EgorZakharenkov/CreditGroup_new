@@ -2305,3 +2305,34 @@ color: #2A2E33
 .items_left{
   left: -20px;
 }
+
+.item_main_right{
+  position: absolute;
+  top: 380px;
+  left: 150px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  padding: 19px 33px 20px 28px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  width: 410px;
+  p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* black */
+
+    color: #2A2E33;
+    max-width: 256px;
+    span{
+      color: #A259FF;
+    }
+  }
+}

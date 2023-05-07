@@ -148,6 +148,30 @@
 
 
 @media screen and (max-width: 850px) {
+  .item_main_right{
+    padding: 15px 24px 14px 20px;
+    width: 300px;
+    top: 220px;
+    left: 10px;
+    .image{
+      width: 37px;
+      height: 34px;
+    }
+    p{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 135%;
+      /* or 19px */
+
+      font-feature-settings: 'pnum' on, 'lnum' on;
+
+      /* black */
+
+      color: #2A2E33;
+    }
+  }
   .right-container{
     img{
       width: 300px;
