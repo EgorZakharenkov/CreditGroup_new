@@ -16,8 +16,27 @@ input {
 }
 
 body {
+  position: relative;
   background: #eceff4;
   overflow-x: hidden;
+}
+
+.nav_static {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  right: 50px;
+  top: 70vh;
+  z-index: 100;
+}
+.nav_static .item {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 15px;
+  width: 50px;
 }
 
 datalist {
